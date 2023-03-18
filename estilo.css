@@ -1,0 +1,127 @@
+html{
+    display: flex;
+}
+header{
+    display: flex;
+    min-height: 90px;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.banner{
+    display: flex;
+    max-width: 80%; 
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px;
+}
+.banner_td_right_left{
+    vertical-align: middle; width: 300px;
+}
+.banner_td_middle{
+    vertical-align: middle; width: 700px;
+}
+.entidad-receptora{
+    font-size: smaller;
+}
+table td{
+    font-size: medium;
+    vertical-align: top;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table input[type="radio"]{
+    height: 20px;
+    width: 20px;
+}
+body p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+}
+input[type="date"]{
+    height: 25px; 
+    
+    
+        width: 150px;
+    font-size:large;
+}
+.logo{
+    display: flex; 
+    font-size: larger;
+}
+.logo img{
+    display: flex;
+    height: 160px;
+    text-align: center;
+    padding-left: 23%;
+}
+.ER{
+    font-size: x-small;
+    text-align: left;
+}
+.table1{
+    border-collapse: collapse; 
+    background-color: aliceblue; 
+    height: 200px;
+    width: 80%;
+}
+.t1_tr_height70px{
+    height: 70px; font-size: medium;
+    vertical-align: top;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t1_tr_height5{
+    height: 5%; font-size: medium;
+    vertical-align: top;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t1_td_width10{
+    width: 10%;
+}
+.t1_td_width400px{
+    width: 400px;
+}
+.t1_tr{
+    font-size: medium;
+    vertical-align: top;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table2{
+    border-collapse: collapse;
+    background-color: aliceblue; 
+    height: 200px; 
+    width: 80%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table21{
+    border-collapse: collapse;
+}
+.table22 tr{
+    height: 5px;
+}
+.table23{
+    border-collapse: collapse; 
+    height: 200px; 
+    width: 100%;
+}
+.tdcolor{
+    background-color:lightblue
+}
+.trheight30px{
+    height: 30px;
+}
+.trheight10px{
+    height: 10px;
+}
+.trheight5px{
+    height: 5px;
+}
+.table24{
+    border-collapse: collapse; 
+    width: 50%;
+}
+
+

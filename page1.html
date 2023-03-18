@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Hoja de vida</title>
+</head>
+<body>
+    <header>
+        <table class="banner" frame="box" align="center">
+            <td class="banner_td_right_left" align="center">
+                <div class="logo">
+                     <img src="logo.jpg" alt="">
+                </div>
+            </td>
+            <td class="banner_td_middle" align="center">
+                <h4>FORMATO ÚNICO</h4>
+                <h2>HOJA DE VIDA</h2>
+                <h4>Persona Natural</h4>
+                <h5>(Leyes 190 de 1995, 489 443 de 1998)</h5>
+            </td>
+            <td class="banner_td_right_left" align="left">
+                <div class="entidad-receptora">
+                    <i>ENTIDAD RECEPTORA</i><br>
+                    <input type="text" value="" name="txtentidadr">
+                </div>
+            </td>
+        </table>
+    </header>
+    <br><p><b>1-&emsp;DATOS PERSONALES</b></p><br>
+    <table class="table1" border="1" align="center">
+        <tr class="t1_tr_height70px">
+            <td colspan="3"><i>PRIMER APELLIDO</i>
+            <td colspan="4"><i>SEGUNDO APELLIDO (O DE CASADA)</i>
+            <td colspan="3"><i>NOMBRES</i>
+        </tr>
+        <tr class="t1_tr_height5">
+            <td colspan="4"><i>DOCUMENTO DE IDENTIFICACIÓN</i>
+                <br>
+                <br>
+                C. C&emsp;<input type="radio" value="c.c" name="Identificacion">&emsp;
+                C. E&emsp;<input type="radio" value="c.e" name="Identificacion">&emsp;
+                PAS&emsp;<input type="radio" value="pas" name="Identificacion">&emsp;
+                No. _________________________________
+            <td class="t1_td_width10"><i>SEXO</i>
+                <br>
+                <br>
+                F<input type="radio" value="femenino" name="SEXO">
+                M<input type="radio" value="masculino" name="SEXO">
+            <td class="t1_td_width400px" colspan="4"><i>NACIONALIDAD&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PAIS</i>
+                <br>
+                <br>
+                COL.<input type="radio" value="colombia" name="nacionalidad">
+                EXTRANJERO<input type="radio" value="extranjero" name="nacionalidad">
+                ______________<br><br>
+        </tr>
+        <tr class="t1_tr">
+            <td colspan="8">
+                <i>LIBRETA MILITAR</i>
+                <br>
+                <br>
+                PRIMERA CLASE&emsp;&emsp;
+                <input type="radio" value="primera_clase" name="libreta_militar">&emsp;&emsp;
+                SEGUNDA CLASE&emsp;&emsp;
+                <input type="radio" value="primera_clase" name="libreta_militar">&emsp;&emsp;
+                NÚMERO&emsp;&emsp;___________________________________&emsp;&emsp;
+                D. M&emsp;&emsp;__________________<br><br>
+                
+            </td>
+        </tr>
+        <tr class="t1_tr">
+            <td colspan="3"><i>FECHA Y LUGAR DE NACIMIENTO</i><br><br>
+                FECHA&emsp;&emsp;<input type="date" value="fecha" name="dia_mes_año"><br><br>
+                PAÍS&emsp;&emsp;&emsp;___________________________________<br><br>
+                DEPTO&emsp;&emsp;___________________________________<br><br>
+                MUNICIPIO&emsp;_________________________________
+            <td colspan="7"><i>DIRECCIÓN Y CORRESPONDENCIA</i><br><br>
+                ________________________________________________<br><br>
+                PAÍS&emsp;_____________________________&emsp;DEPTO&emsp;_____________________________<br><br>
+                MUNICIPIO&emsp;__________________________________<br><br>
+                TELÉFONO&emsp;___________________________&emsp;EMAIL&emsp;___________________________<br><br>
+    
+        </tr>
+    </table> 
+    <br>
+    <br><p><b>2-&emsp;FORMACIÓN ACADÉMICA</b></p><br>
+    <table class="table2" border="1" align="center">
+        <tr>
+            <td><b>EDUCACIÓN BÁSICA Y MEDIA</b><br>
+                MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
+                EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )<br><br>
+                <table class="table21" border="1" align="center">
+                    <tr>
+                        <td class="tdcolor" colspan="11"><i>EDUCACIÓN BÁSICA
+                        <td colspan="1"><i>TÍTULO OBTENIDO:
+                    </tr>
+                    <tr>
+                        <td class="tdcolor" colspan="5"><i>PRIMARIA
+                        <td class="tdcolor" colspan="4"><i>SECUNDARIA
+                        <td class="tdcolor" colspan="2"><i>MEDIA
+                        <td class="tdcolor"><i>FECHA DE GRADO
+                    </tr>
+                    <tr>
+                        <td>1o.
+                        <td>2o.
+                        <td>3o.
+                        <td>4o.
+                        <td>5o.
+                        <td>6o.
+                        <td>7o.
+                        <td>8o.
+                        <td>9o.
+                        <td>10
+                        <td>11
+                        <td>&emsp;&emsp;&emsp;MES&emsp;
+                            <input type="month" value="mes" name="mes">&emsp;
+                            AÑO&emsp;<input type="number" name="ano" id="ano">
+                    </tr>
+                </table>
+                <br>
+                <br>
+        </tr>
+        <tr>
+            <td><b>EDUCACIÓN SUPERIOR (PREGRADO Y POSTGRADO)</b>
+                <table class="table22" >
+                    <tr>
+                        <td colspan="4"><br>DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA:                        
+                    <tr>
+                        <td><b>TC</b> (TÉCNICA),
+                        <td><b>TL</b> (TECNOLÓGICA),
+                        <td><b>TE</b> (TECNOLÓGICA ESPECIALIZADA),
+                        <td><b>UN</b> (UNIVERSITARIA),
+                    <tr> 
+                        <td><b>ES</b> (ESPECIALIZACIÓN),
+                        <td><b>MG</b> (MAESTRÍA O MAGISTER),
+                        <td><b>DOC</b> (DOCTORADO O PHD),
+                    <tr>
+                        <td colspan="4">RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).
+                </table>
+        </tr>
+        <tr>
+            <td>
+                <table class="table23" border="1" align="center">
+                    <tr class="trheight30px" align="center">
+                        <td class="tdcolor" rowspan="2"><i>MODALIDAD ACADÉMICA
+                        <td class="tdcolor" rowspan="2"><i>No. SEMESTRES<br>APROBADOS
+                        <td class="tdcolor" colspan="2"><i>GRADUADO
+                        <td class="tdcolor" rowspan="2"><i>NOMBRE DE LOS ESTUDIOS O TÍTULO OBTENIDO
+                        <td class="tdcolor" colspan="5">TERMINACIÓN
+                        <td class="tdcolor" rowspan="2"><i>No. DE TARJETA PROFESIONAL
+                    </tr>
+                    <tr class="trheight30px">
+                        <td class="tdcolor"><i>SI
+                        <td class="tdcolor"><i>NO
+                        <td class="tdcolor"><i>MES
+                        <td class="tdcolor" colspan="4"><i>AÑO
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr><td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr><td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+        </tr>
+        <tr>
+            <td>ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: 
+                HABLA, LEE, ESCRIBE DE FORMA, REGULAR (R), BIEN (B) O MUY BIEN (MB)<br><br>
+                <table class="table24" border="1" align="center">
+                    <tr class="trheight10px">
+                        <td align="center" class="tdcolor" rowspan="2"><i>IDIOMA
+                        <td class="tdcolor" colspan="3"><i>LO HABLA
+                        <td class="tdcolor"  colspan="3"><i>LO LEE
+                        <td class="tdcolor"  colspan="3"><i>LO ESCRIBE
+                    </tr>
+                    <tr class="trheight5px">
+                        <td class="tdcolor">R
+                        <td class="tdcolor">B
+                        <td class="tdcolor">MB
+                        <td class="tdcolor">R
+                        <td class="tdcolor">B
+                        <td class="tdcolor">MB
+                        <td class="tdcolor">R
+                        <td class="tdcolor">B
+                        <td class="tdcolor">MB
+                    </tr>
+                    <tr class="trheight30px">
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr class="trheight30px">
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </table>
+        </tr>
+    </table>
+    <br><br>
+</body>
+</html>
