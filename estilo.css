@@ -2,17 +2,18 @@ html{
     display: flex;
 }
 header{
-    display: flex;
-    min-height: 90px;
-    justify-content: space-between;
+    height: 200px;
+    width: 80%;
+    max-width: 1200px;
     font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding-left: 10%;
 }
 .banner{
     display: flex;
-    max-width: 80%; 
     height: 200px;
     border-radius: 20px;
-    box-shadow: 5px;
+    align-items: center;
 }
 .banner_td_right_left{
     vertical-align: middle; width: 300px;
@@ -21,7 +22,7 @@ header{
     vertical-align: middle; width: 700px;
 }
 .entidad-receptora{
-    font-size: smaller;
+    font-size: small;
 }
 table td{
     font-size: medium;
@@ -65,6 +66,9 @@ input[type="date"]{
     height: 200px;
     width: 80%;
 }
+.table1 caption{
+    font-size: 1px;
+}
 .t1_tr_height70px{
     height: 70px; font-size: medium;
     vertical-align: top;
@@ -84,7 +88,6 @@ input[type="date"]{
     width: 400px;
 }
 .t1_tr{
-    font-size: medium;
     vertical-align: top;
     padding-left: 8px;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,5 +126,9 @@ input[type="date"]{
     border-collapse: collapse; 
     width: 50%;
 }
-
+@media screen and (max-width: 1000px){
+    pid78u{
+        
+    }
+}
 
