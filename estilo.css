@@ -66,9 +66,6 @@ input[type="date"]{
     height: 200px;
     width: 80%;
 }
-.table1 caption{
-    font-size: 1px;
-}
 .t1_tr_height70px{
     height: 70px; font-size: medium;
     vertical-align: top;
@@ -82,7 +79,7 @@ input[type="date"]{
     font-family: Arial, Helvetica, sans-serif;
 }
 .t1_td_width10{
-    width: 10%;
+    width: 100px;
 }
 .t1_td_width400px{
     width: 400px;
@@ -126,9 +123,9 @@ input[type="date"]{
     border-collapse: collapse; 
     width: 50%;
 }
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
     pid78u{
         
     }
-}
+} */
 
